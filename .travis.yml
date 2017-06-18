@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: kN1iU5cXCDNyF/dcNSTkpbXsykg6jCVLHc7wTcUjeFOcvkxKF5OMAQ6dvnVx3JmGXSKG1l/q9C/uW+FB1tF7TARLAUVGACHULnn27+sWsZVaXaZSKVrJiSmPsIALeI67yAHymG+LzDBN1NWP+ZQw5UuZpeIV20XOLO8vF+xsfQzXkm2PfkUBciuHbkzUwqRcXsgMEYz9N+xlR1JuIcmxIne+tWPdPH9SHiCy7KL7va3KkuCP5qzJ8Ffb5t40k+4NSqcB+wo5gckaAFoBR+BWr0b6IrLxj1PcEtSFZY0dv3eNArj6BhJc1x5/YPZQnrmQNUBuLfpAqcj+Jr1bYyeBByr3xAwFEeRv/1QSDeBRKQi5HLa047ZwokjPnngitKcDAVKy4PvLNT57Lkft1WqBC1leVVxjMV4G1ZZI6damelGFadAQ0f5IfDwFL/7jhVKUxH1Moml3GbT6e/1CKODK3zM6bXi839Kmf3Ynm4uD4c4948JX5LwneVUHeR2qpIhNDBX/jKXj195ADHg+yW29JpOyLwZpaTRp+EdJ6ye4b6YUaynWGHg92VJJihO4ceFr+9gIIN1H9C7rdblLyb+c2WWmgOFMUpiSaAcI0YeButQbB63ifpVGvfsGxIaT0ROAB4T4t5pl800Uws3UtHac36fkQjm1oPOT0T+d6Ch57to=
+  app: nameless-dusk-12511
+  on:
+    repo: Yitzi2/node-shopping-list-integration-tests
